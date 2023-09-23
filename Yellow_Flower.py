@@ -98,11 +98,12 @@ def i_love_you():
     canvas.create_window(0, -5000, window=label)
 
 #           --- Creating the Text ---
-    canvas.create_text(-230, -200, text="Sé que no es mucho,", fill="gold3", font=(FONT))
-    canvas.create_text(-230, -180, text="pero es lo mejor que puedo", fill="gold3", font=(FONT))
-    canvas.create_text(-230, -160, text="hacer por ti ahora mismo", fill="gold3", font=(FONT))
-    canvas.create_text(-230, -140, text="Te amo <3", fill="gold2", font=(FONT))
-    canvas.create_text(-230, -120, text="~César L Paredes", fill="gold2", font=('Comic Sans MS', 12, 'bold'))
+# You can change "text x" to wherever you want to display
+    canvas.create_text(-230, -200, text="text 1", fill="gold3", font=(FONT))
+    canvas.create_text(-230, -180, text="text 2", fill="gold3", font=(FONT))
+    canvas.create_text(-230, -160, text="text 3", fill="gold3", font=(FONT))
+    canvas.create_text(-230, -140, text="text 4", fill="gold2", font=(FONT))
+    canvas.create_text(-230, -120, text="text 5", fill="gold2", font=('Comic Sans MS', 12, 'bold'))
 
 #           --- Displaying the button and the screen ---
 screen = tour.Screen()
